@@ -1,0 +1,33 @@
+
+(1) create my_Django_project folder
+
+(2) create my_environment folder inside of it
+
+(3)[Git Bash] navigate to my_environment
+
+(4)[Git Bash] Create my virtual environment [ python -m venv djangoPy3Env ]
+      ... note : ( djangoPy3Env ) is the name fo my virtual folder ... 
+ 
+(5)[Git Bash] Activate my virtual environment [ source djangoPy3Env/Scripts/activate ]
+
+(6)[Git Bash] Install Django [ pip install Django==2.2.4 ]
+
+(7)[Git Bash] navigate to where I want the project to be saved ( my_Django_project )
+
+(8)[Git Bash] run this command and specifying a project name (Django_project_one) [django-admin startproject Django_project_one]
+     ... note : ( Django_project_one ) is the name of my project ...
+
+(9)[Git Bash] navigate to the project name ( Django_project_one )
+
+(9.1)[Git Bash] let's test run it [python manage.py runserver]
+     ... note : open (localhost:8000) you will see a message "The install worked successfully" ...
+     ... if you didn't see that then you need to recheck the steps ... 
+     ... Press ctrl-c to stop the server ... 
+
+(10)[Git Bash] make sure you stop the server if you run it (9.1) 
+      for every app we want to add to our project, we'll do this command [ python manage.py startapp app_one ]
+     ... note : ( app_one ) is my app name ... 
+     ... !! Important !! : The apps in a project CANNOT have the same name as the project ...
+
+(end)[Git Bash] to run the server you need to be at your project name ( Django_project_one ) [python manage.py runserver]
+     ... you can see it at localhost:8000 , Press ctrl-c to stop the server ...  
