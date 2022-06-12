@@ -1,7 +1,7 @@
 
 (1) create my_Django_project folder
 
-(2) create my_environment folder inside of it
+(2) create my_environment folder ... it should be in a folder outside all my projects (we need to do it once)
 
 (3)[Git Bash] navigate to my_environment
 
@@ -29,5 +29,7 @@
      ... note : ( app_one ) is my app name ... 
      ... !! Important !! : The apps in a project CANNOT have the same name as the project ...
 
-(end)[Git Bash] to run the server you need to be at your project name ( Django_project_one ) [python manage.py runserver]
-     ... you can see it at localhost:8000 , Press ctrl-c to stop the server ...  
+(end)[Git Bash] to run the server you need to be at your project name folder ( Django_project_one ) [python manage.py runserver]
+     ... you can see it at localhost:8000 , Press ctrl-c to stop the server ... 
+     
+(Using Session)[Git Bash] [python manage.py migrate]
