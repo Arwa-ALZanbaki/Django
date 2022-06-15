@@ -33,3 +33,8 @@
      ... you can see it at localhost:8000 , Press ctrl-c to stop the server ... 
      
 (Using Session)[Git Bash] [python manage.py migrate]
+
+(Using ... )[Git Bash] [python manage.py makemigrations]
+(Using ... )[Git Bash] [python manage.py migrate]
+
+(Using to run the shell)[Git Bash][python manage.py shell]
